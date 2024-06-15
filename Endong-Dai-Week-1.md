@@ -41,3 +41,35 @@ Weekly Report 1 for FURP23/24 - Omni-directional-Robot-Collision-Awareness
     ```bash
     $ rosnode list
     ```
+
+### Publishing Topic Messages
+- **Publish a topic message**:
+  ```bash
+  $ rostopic pub -r 10 /turtle1/cmd_vel geometry_msgs/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+  ```
+- **Verification**: The turtle keeps moving to the right. Use `Ctrl + C` to stop the script.
+
+### Publishing Service Requests
+- **Publish a service request**:
+  ```bash
+  $ rosservice call /spawn "x: 5.0
+  y: 5.0
+  theta: 0.0
+  name: 'turtle2'"
+  ```
+- **Verification**: A new turtle spawns at the specified coordinates.
+
+### Recording Topics
+- **Record topics**:
+  ```bash
+  $ rosbag record -a -O cmd_record
+  ```
+- **Verification**: Control the turtle's movements freely. Use `Ctrl + C` to stop and save.
+
+### Replaying Topics
+- **Replay topics**:
+  ```bash
+  $ rosbag play cmd_record.bag
+  ```
+- **Verification**: Open the previously recorded file to replay the turtle's movements.
+
