@@ -10,7 +10,7 @@
 
 ---
 
-#### Following ROS 21 Talk Video Tutorials
+#### Following ROS 21 Talk Video Tutorials 1 - 9
 
 1. **Testing ROS Installation**
     - **Start ROS master**: 
@@ -78,7 +78,7 @@
 
 ---
 
-#### Additional Learning from ROS入门21讲 Tutorials
+#### Additional Learning from ROS 21 Talk Tutorials 10 - 16
 
 8. **Publisher Implementation**:
     - **Creating Publisher Code (C++)**:
