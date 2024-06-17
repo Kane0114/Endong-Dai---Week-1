@@ -1,9 +1,9 @@
 
-### Weekly Report 1 for FURP23/24 - Omni-directional-Robot-Collision-Awareness
+## Weekly Report 1 for FURP23/24 - Omni-directional-Robot-Collision-Awareness
 
 ---
 
-#### Setting Up the Environment
+### Setting Up the Environment
 - **Operating System**: Ubuntu 20.04 LTS
 - **Framework Platform**: ROS1 Noetic
 - **Simulation Platform**: Gazebo
